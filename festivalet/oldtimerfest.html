@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="x-icon" href="../Foto/prizrenlogo.webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="festival.css">
+    <title>OLD TIMER FEST</title>
+</head>
+<body>
+    <div id="contain">
+        <div id="contain-txt">
+            <h1>OLD TIMER FEST</h1>
+        </div>
+        <div class="audi">
+        <div>
+            <img src="/Foto/old.avif" alt="audi a3" data-aos="fade-left">
+            <p>OLD TIMER 1 <span>2022</span></p>
+            <p>Recomandation:(6<i class="fa-solid fa-star"></i>)</p>
+            <p id="price">Rent Price:</p>
+            <br><br>
+            <input type="button" value="+" id="inc" onclick="incNumber()" />
+            <input type="button" value="-" id="dec" onclick="decNumber()"/>
+            <label id="display"></label>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button>Buy</button>
+        </div>
+        <div >
+            <img src="../Foto/old8.jfif" alt="audi a4" data-aos="fade-left">
+            <p>OLD TIMER 2 <span>2022</span></p>
+            <p>Recomandation:(6<i class="fa-solid fa-star"></i>)</p>
+            <p id="price1">Rent Price:</p>
+            <br><br>
+            <input type="button" value="+" id="inc" onclick="incNumber1()"/>
+            <input type="button" value="-" id="dec" onclick="decNumber1()"/>
+            <label id="display1"></label>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button>Buy</button>
+        </div>
+        <div >
+            <img src="../Foto/old4.jpg" alt="audi Q5" data-aos="fade-left">
+            <p>OLD TIMER 3 <span>2022</span></p>
+            <p>Recomandation:(6<i class="fa-solid fa-star"></i>)</p>
+            <p id="price2">Rent Price:</p>
+            <br><br>
+            <input type="button" value="+" id="inc" onclick="incNumber2()"/>
+            <input type="button" value="-" id="dec" onclick="decNumber2()"/>
+            <label id="display2"></label>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button>Buy</button>
+        </div>
+        <div>
+            <img src="../Foto/old5.jpg" alt="audi A8" data-aos="fade-left">
+            <p>OLD TIMER 4<span>2022</span>
+            <p>Recomandation:(6<i class="fa-solid fa-star"></i>)</p>
+            <p id="price3">Rent Price:</p>
+            <br><br>
+            <input type="button" value="+" id="inc" onclick="incNumber3()"/>
+            <input type="button" value="-" id="dec" onclick="decNumber3()"/>
+            <label id="display3"></label>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button>Buy</button>
+        </div>
+        <div>
+            <img src="../Foto/old6.jpg" alt="audi RS7" data-aos="fade-left">
+            <p>OLD TIMER 5<span>2021</span></p>
+            <p>Recomandation:(6<i class="fa-solid fa-star"></i>)</p>
+            <p id="price4">Rent Price:</p>
+            <br><br>
+            <input type="button" value="+" id="inc" onclick="incNumber4()"/>
+            <input type="button" value="-" id="dec" onclick="decNumber4()"/>
+            <label id="display4"></label>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button>Buy</button>
+        </div>
+        <div>
+            <img src="../Foto/old7.jpg" alt="audi S6" data-aos="fade-left">
+            <p>OLD TIMER 6<span>2022</span></p>
+            <p>Recomandation:(6<i class="fa-solid fa-star"></i>)</p>
+            <p id="price5">Rent Price:</p>
+            <br><br>
+            <input type="button" value="+" id="inc" onclick="incNumber5()"/>
+            <input type="button" value="-" id="dec" onclick="decNumber5()"/>
+            <label id="display5"></label>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button>Buy</button>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="oldtimerfest.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

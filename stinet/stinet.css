@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.stinet-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr ));
+    grid-gap:15px;
+    max-width: 100%;
+    padding:14px 16px;
+    margin-bottom: 10%;
+}
+.stinet-card .foto{
+    max-width: 100%;
+    width:350px;
+    height:200px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.container1 h1{
+    text-align: center;
+    margin:5%;
+}
+.butt button{
+    border: none;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color:#039dfc ;
+    color:white;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+.butt button:hover{
+    transform: scale(1.100);
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:link{
+    text-decoration: none;
+}
+
+

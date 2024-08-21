@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.gastro-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-gap:20px;
+    max-width: 100%;
+    padding:14px 16px;
+    margin:10%;
+}
+.gastro-box img{
+    max-width: 100%;
+    width:400px;
+    height:200px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 20px;
+    opacity: 0.8;
+    object-fit: cover;
+    transition: 0.3s;
+    cursor: pointer;
+    flex-flow: wrap column;
+}
+.gastro-box img:hover{
+    transform: scale(1.0900 );
+}
+.gastro-box h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.gastro-box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gastro-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.gastro-txt-2{
+    text-align: center;
+}
+.teHalimi{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.teHalimi-txt{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#rezervim{
+   margin-top: 3%;
+}
+.form-group{
+    margin: 3%;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FishHouse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FishHouse-txt{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.teSyla-txt h1{
+    text-align: center;
+}
+.teSyla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
